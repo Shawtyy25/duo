@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -40,4 +41,36 @@ p {
     width: 150px;
     height: 45px;
     margin: 10px;
+ 
+  a{
+    padding-right: 30px;
+    color: white;
+    background-color: none;
+    text-decoration: none;
 }
+
+#login{
+    padding-right: 30px;
+}
+nav{
+    padding: 30px !important;
+}
+
+.container-fluid{
+    justify-content: space-evenly;
+    gap: 30rem;
+    font-size: large;
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
