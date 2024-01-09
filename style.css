@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(75, 15, 75, 0.904), rgba(13, 13, 184, 0.74));
+
+}
+
+main {
+    color: white;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+h1 {
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 500px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    color: white !important;
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+}
